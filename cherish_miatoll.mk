@@ -1,4 +1,4 @@
-# Copyright (C) 2023 PixysOS
+# Copyright (C) 2023 cherishOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,13 +19,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from miatoll device
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
-# Inherit common pixys stuff.
-$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
+# Inherit common cherish stuff.
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := pixys_miatoll
+PRODUCT_NAME := cherish_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := SM6250
